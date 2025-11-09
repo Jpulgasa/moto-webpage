@@ -4,6 +4,11 @@ body {
     font-family: roboto;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .top-container {
     background-color: #1F2937;
     
@@ -34,6 +39,7 @@ body {
     max-width: 100%;
     height: auto;
 }
+    
 
 .header {
     
@@ -42,6 +48,45 @@ body {
    font-size: 24px;
    color: #f9faf8;
    padding: 20px;
+}
+
+.mid-tittle {
+    display: flex;
+    justify-content: center;
+}
+
+.mid-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 90px;
+    margin-top: -70px;
+    
+}
+
+.random img {
+    width: 250px;  
+    height: 250px;
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+    
+}
+
+.text {
+    margin-top: 40px;
+    display: flex;
+    
+}
+
+.quote-card {
+    background-color: #e5e7eb;
+    padding: 60px;
 }
 
 ul {
@@ -62,7 +107,39 @@ a {
     font-size: 18px;
 }
 
-.learn-img {
+.quote ,.author {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+.author {
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.sign-card {
+    margin: 75px;
+    
+    
+}
+
+.sign-container {
+    background-color: #3882f6;
+    padding: 1px 140px;
+    color: #e5e7eb;
+    font-size: 16px;
+    
+    
+    
+}
+
+.sign-bolder {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.learn-btn {
     background-color: #3882f6;
     font-family: Roboto, sans-serif;
     font-weight: bolder;
@@ -72,3 +149,23 @@ a {
     padding: 8px 24px;
     
 }
+
+.brap-btn {
+    background-color: #3882f6;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    color: #e5e7eb;
+    padding: 8px 24px;
+    margin-bottom: 5px;
+}
+
+.footer{
+    background-color: #1F2937;
+    padding: 35px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
